@@ -16,7 +16,7 @@
   "license": "ISC",
   "release": {
     "branches": [
-      "main",
+      "master",
       {
         "name": "develop",
         "prerelease": true
