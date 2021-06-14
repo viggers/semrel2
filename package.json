@@ -1,0 +1,29 @@
+{
+  "name": "semrel2",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viggers/semrel2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "release": {
+    "branches": [
+      "main",
+      {
+        "name": "develop",
+        "prerelease": true
+      }
+    ]
+  },
+  "devDependencies": {
+    "semantic-release": "^17.4.3"
+  }
+}
